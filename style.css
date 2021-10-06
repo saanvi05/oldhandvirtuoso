@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: cursive;
+    background: -webkit-linear-gradient(orange, rgb(255, 255, 123), rgb(235, 191, 110), rgb(255, 238, 139));
+    background-position: center;
+    animation: infinite;
+}
+
+.contact-title {
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h3 {
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h4 {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 83px;
+}
+
+form .submit {
+    background: -webkit-linear-gradient(green, rgb(24, 143, 0), rgb(3, 199, 3));
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: orange;
+    cursor: pointer;
+}
